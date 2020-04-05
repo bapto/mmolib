@@ -1,0 +1,13 @@
+name: ${project.name}
+version: ${project.version}
+main: net.mmogroup.mmolib.MMOLib
+author: Indyuce
+description: ${project.description}
+api-version: 1.13
+loadbefore: [MMOCore, MMOItems]
+commands:
+    exploreattributes:
+        description: Explore player attributes.
+permissions:
+    mmolib.explore-attributes:
+        default: op
